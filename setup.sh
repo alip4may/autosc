@@ -21,7 +21,7 @@ BURIQ () {
     rm -f  /root/tmp
 }
 # https://raw.githubusercontent.com/alip4may/ipregnv/main/ip 
-MYIP=$(curl -sS ipv4.icanhazip.com)
+MYIP=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip)
 Name=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
@@ -38,7 +38,7 @@ fi
 }
 
 PERMISSION () {
-    MYIP=$(curl -sS ipv4.icanhazip.com)
+    MYIP=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip)
     IZIN=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
