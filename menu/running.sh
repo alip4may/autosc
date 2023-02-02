@@ -247,8 +247,8 @@ kernelku=$(uname -r)
 
 # DNS PATCH
 #tipeos2=$(uname -m)
-Name=$(curl -sS https://raw.githubusercontent.com/NevermoreSSH/ipregnv/main/ip | grep $MYIP | awk '{print $2}')
-Exp=$(curl -sS https://raw.githubusercontent.com/NevermoreSSH/ipregnv/main/ip | grep $MYIP | awk '{print $3}')
+Name=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip | grep $MYIP | awk '{print $2}')
+Exp=$(curl -sS https://raw.githubusercontent.com/alip4may/ipregnv/main/ip | grep $MYIP | awk '{print $3}')
 # GETTING DOMAIN NAME
 Domen="$(cat /etc/xray/domain)"
 echo -e ""
@@ -328,7 +328,7 @@ echo "   - Installation Log --> /root/log-install.txt"
 echo ""
 echo "   [ DEV INFORMATION ]"
 echo "   -------------------"
-echo "   - Autoscript-Lite By      : AutoScript-sshxraysws"
-echo "   - Github                  : github.com/NevermoreSSH"
+echo "   - Autoscript-Lite By      : ALIVE"
+echo "   - Github                  : github.com/alip4may"
 echo ""
-echo "════════════════ Autoscript-Lite By NevermoreSSH ════════════════"
+echo "════════════════ Autoscript-Lite By ALIVE ════════════════"
