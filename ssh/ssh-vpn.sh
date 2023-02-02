@@ -298,28 +298,28 @@ wget -O tendang "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/tend
 wget -O sshws "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/sshws.sh"
 
 # menu system
-wget -O m-system "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/m-system.sh"
-wget -O m-domain "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/m-domain.sh"
-wget -O add-host "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/ssh/add-host.sh"
-#wget -O port-change "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/port/port-change.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/xray/certv2ray.sh"
-#wget -O m-webmin "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/m-webmin.sh"
-wget -O speedtest "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/ssh/speedtest_cli.py"
-#wget -O about "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/about.sh"
-wget -O auto-reboot "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/auto-reboot.sh"
-wget -O restart "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/restart.sh"
-wget -O bw "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/bw.sh"
-wget -O m-tcp "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/menu/tcp.sh"
+wget -O m-system "https://raw.githubusercontent.com/alip4may/autosc/main/menu/m-system.sh"
+wget -O m-domain "https://raw.githubusercontent.com/alip4may/autosc/main/menu/m-domain.sh"
+wget -O add-host "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/add-host.sh"
+#wget -O port-change "https://raw.githubusercontent.com/alip4may/autosc/main/port/port-change.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/alip4may/autosc/main/xray/certv2ray.sh"
+#wget -O m-webmin "https://raw.githubusercontent.com/alip4may/autosc/main/menu/m-webmin.sh"
+wget -O speedtest "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/speedtest_cli.py"
+#wget -O about "https://raw.githubusercontent.com/alip4may/autosc/main/menu/about.sh"
+wget -O auto-reboot "https://raw.githubusercontent.com/alip4may/autosc/main/menu/auto-reboot.sh"
+wget -O restart "https://raw.githubusercontent.com/alip4may/autosc/main/menu/restart.sh"
+wget -O bw "https://raw.githubusercontent.com/alip4may/autosc/main/menu/bw.sh"
+wget -O m-tcp "https://raw.githubusercontent.com/alip4may/autosc/main/menu/tcp.sh"
 
 # change port
-#wget -O port-ssl "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/port/port-ssl.sh"
-#wget -O port-ovpn "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/port/port-ovpn.sh"
-#wget -O port-tr "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/port/port-tr.sh"
+#wget -O port-ssl "https://raw.githubusercontent.com/alip4may/autosc/main/port/port-ssl.sh"
+#wget -O port-ovpn "https://raw.githubusercontent.com/alip4may/autosc/main/port/port-ovpn.sh"
+#wget -O port-tr "https://raw.githubusercontent.com/alip4may/autosc/main/port/port-tr.sh"
 
 
-wget -O xp "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/ssh/xp.sh"
-#wget -O asu "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/asu.sh"
-wget -O sshws "https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/ssh/sshws.sh"
+wget -O xp "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/xp.sh"
+#wget -O asu "https://raw.githubusercontent.com/alip4may/autosc/main/asu.sh"
+wget -O sshws "https://raw.githubusercontent.com/alip4may/autosc/main/ssh/sshws.sh"
 
 chmod +x menu
 chmod +x m-vmess
