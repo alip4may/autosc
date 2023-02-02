@@ -64,7 +64,7 @@ apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && re
 ♦️ Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/NevermoreSSH/AutoScript-sshxraysws/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/alip4may/autosc/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 ♦️ Custom SSH Websocket Banner (if you wanted)<br>
 
@@ -75,6 +75,6 @@ nano issue.net
 
 Menu & Port:
 
-<img src="https://github.com/NevermoreSSH/AutoScript-sshxraysws/blob/main/permission/image.png" width="900" title="Autoscript-Lite">
+<img src="https://github.com/alip4may/autosc/blob/main/permission/image.png" width="900" title="Autoscript-Lite">
 </p>
 
