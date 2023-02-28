@@ -1,7 +1,4 @@
 #!/bin/bash
-MYIP=$(curl -sS ipv4.icanhazip.com)
-echo "Checking VPS"
-#########################
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$(wget -qO- ipinfo.io/ip);
