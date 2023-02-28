@@ -1,4 +1,8 @@
 #!/bin/bash
+MYIP=$(wget -qO- ipinfo.io/ip);
+echo "Checking VPS"
+IZIN=$(wget -qO- ipinfo.io/ip);
+
 fi
 clear 
 if [ ! -e /usr/local/bin/reboot_otomatis ]; then
